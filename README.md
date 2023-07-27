@@ -228,7 +228,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## :handshake: Contact
 
-Sanjay - [@Sanjay](https://github.com/Sanjay0712) - [@Sanjay](https://sanjay0712.github.io/myPortfolio/)
+Sanjay - [@Github](https://github.com/Sanjay0712) - [@Portfolio](https://sanjay0712.github.io/myPortfolio/)
 
 Email: sanjaydevan07@gmail.com
 
