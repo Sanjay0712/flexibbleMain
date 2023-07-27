@@ -238,7 +238,7 @@ Email: sanjaydevan07@gmail.com
 
 ## :gem: Acknowledgements
 
-This section used to mention useful resources and libraries that used in Flexibble Web project.
+These are the tech stacks that I have learnt and implemented through this project.
 
 - [NextJS](https://nextjs.org/)
 - [React](https://reactjs.org/)
