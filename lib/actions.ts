@@ -93,6 +93,7 @@ export const createNewProject = async (
   }
 };
 
+
 export const updateProject = async (
   form: ProjectForm,
   projectId: string,
