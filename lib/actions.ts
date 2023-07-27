@@ -56,13 +56,16 @@ const makeGraphQLRequest = async (query: string, variables = {}) => {
   }
 };
 
-export const fetchAllProjects = (
-  category?: string | null,
-  endcursor?: string | null
-) => {
-  client.setHeader("x-api-key", apiKey);
-  console.log(category);
-  return makeGraphQLRequest(projectsQuery, { category, endcursor });
+export const fetchAllProjects = (category?: string | null, endcursor?: string | null) => {
+  client.setHeader('x-api-key', apiKey);
+
+  // const validCategory = category ?? 'Frontend';
+
+  if (!category) {
+    return makeGraphQLRequest(allProjectsQuery, { endcursor });
+  } else {
+    return makeGraphQLRequest(projectsQuery, { category: category, endcursor });
+  }
 };
 
 export const createNewProject = async (
